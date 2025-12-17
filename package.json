@@ -8,14 +8,22 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
+    "svg-sprite-loader": "^6.0.11",
     "vue": "^2.7.16"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.28.5",
     "@rsbuild/core": "^1.6.14",
-    "@rsbuild/plugin-less": "^1.5.0",
+    "@rsbuild/plugin-babel": "^1.0.6",
+    "@rsbuild/plugin-basic-ssl": "^1.2.1",
+    "@rsbuild/plugin-node-polyfill": "^1.4.2",
     "@rsbuild/plugin-vue2": "^1.0.4",
+    "@rsbuild/plugin-vue2-jsx": "^1.0.4",
+    "css-loader": "^7.1.2",
     "less": "^4.0.0",
-    "less-loader": "^8.0.0"
+    "less-loader": "^8.1.1",
+    "postcss-loader": "^8.2.0",
+    "style-loader": "^4.0.0"
   },
   "browserslist": [
     "> 1%",
