@@ -66,12 +66,7 @@ export default defineConfig({
       }
     }
   },
-  output: {
-    cssModules: {
-      auto: /\.module\.(css|less|scss|sass)$/,
-      localIdentName: '[local]--[hash:base64:5]'
-    }
-  },
+
   // Vue 2 项目需要关闭 experiments.css
   experiments: {
     css: false
